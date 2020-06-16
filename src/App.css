@@ -1,0 +1,173 @@
+:root{
+  --Primary-font-stack:'Noto Sans', sans-serif;
+}
+.row{
+  display: flex;
+  flex:1;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+.Button{
+  padding:13px;
+  margin:7px;
+  background-color: rgb(7, 67, 145);
+  color:white;
+  border:none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.Button:hover{
+  background-color: rgb(3, 84, 189);
+}
+
+.App {
+  text-align: center;
+  /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(50, 71, 75) 100%); */
+  background-color: rgb(201, 153, 80);
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 700px;
+  min-height: 90vh;
+  position: relative;
+  margin:auto;
+  
+}
+
+.Navbar{
+  background-color: rgb(214, 211, 211);
+  max-height:40px;
+  padding:10px;
+  font-family:var(--Primary-font-stack);
+}
+
+.myRow{
+  color: white;
+  min-height: 250px;
+  justify-content: space-around;
+  padding:10px;
+  background-color: rgb(31, 30, 30);
+  margin:5px;
+}
+
+.AmountInput{
+  padding:5px;
+  margin:5px;
+}
+
+.AmountInput>input{
+  background-color: transparent;
+  border: 0px;
+  outline:0px;
+  border-bottom: 2px solid rgb(215, 227, 230);
+  padding:5px;
+  color:white;
+ }
+
+ .AmountInput>input::placeholder{
+ text-align: center;
+ }
+
+.checkbox{
+  padding: 3px;
+  margin:3px;
+}
+
+.checkbox>label{
+  font-size: 14px;
+}
+
+.textbox>input{
+  height: 70px;
+  width:200px;
+}
+
+.textbox>input::placeholder{
+  text-align: center;
+}
+
+.Balance{
+  min-height:120px;
+  background-image: linear-gradient(72deg, rgb(91, 91, 92),rgb(90, 90, 87));
+  padding:5px;
+  margin:5px;
+  font-size: 17px;
+  color: rgb(230, 224, 224);
+  font-weight: 700;
+  text-transform:uppercase;
+}
+
+.Balance-sub-i{
+  flex:50%;
+  background-color: rgb(41, 173, 123);
+  margin:5px;
+  padding:5px;
+  font-size: 19px;
+  color: black;
+  font-weight: 700;
+}
+
+.Balance-sub{
+  flex:50%;
+  background-color: rgb(199, 86, 71);
+  margin:5px;
+  padding:5px;
+  font-size: 19px;
+  color: black;
+  font-weight: 700;
+}
+
+.chart{
+  background-color: rgb(232, 234, 236);
+  padding: 5px;
+  margin:5px;
+}
+
+.suffix{
+  font-size: 11px;
+  color:rgb(25, 218, 218);
+}
+
+.logs{
+  max-width: 700px;
+  background-color: blanchedalmond;
+  padding:10px;
+  margin:7px;
+  opacity:0.6;
+  border-radius: 5px;
+ justify-content: space-between;
+}
+
+.logs p{
+  padding:5px;
+  margin:5px;
+
+}
+
+.red-border{
+  background-color: rgb(207, 66, 30);
+  color:white;
+}
+
+.green-border{
+  background-color: rgb(48, 112, 48);
+  color:white;
+  /* border:3px solid green; */
+}
+
+.fas:hover{
+color:black;
+}
+
+.info{
+  background-color: blanchedalmond;
+  padding: 5px;
+  text-align: center;
+  margin:5px;
+  opacity: 0.6;
+  font-size: 14px;
+}
